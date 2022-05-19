@@ -12,7 +12,7 @@ import { Container } from './styles';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string
-  icon?: React.ComponentType<SVGAElement>
+  icon?: React.ElementType
 }
 
 function Input({ name, icon: Icon, ...rest }: InputProps) {
